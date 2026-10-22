@@ -41,3 +41,11 @@ form_frame = ttk.Frame(main_frame)
 form_frame.pack(fill="x", pady=5)
 
 input_nilai = []
+
+for i, pelajaran in enumerate(mata_pelajaran):
+    label = ttk.Label(
+        form_frame,
+        text=pelajaran,
+        width=20
+    )
+    label.grid(row=i, column=0, sticky="w", pady=5)
