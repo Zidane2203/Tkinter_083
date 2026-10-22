@@ -61,3 +61,11 @@ for i, pelajaran in enumerate(mata_pelajaran):
     input_nilai.append(entry)
 
 form_frame.columnconfigure(1, weight=1)
+
+# Tombol prediksi
+tombol_prediksi = ttk.Button(
+    main_frame,
+    text="Hasil Prediksi",
+    command=hasil_prediksi
+)
+tombol_prediksi.pack(pady=20)
