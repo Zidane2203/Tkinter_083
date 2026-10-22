@@ -13,3 +13,11 @@ root.resizable(False, False)
 # Frame utama
 main_frame = ttk.Frame(root, padding=25)
 main_frame.pack(fill="both", expand=True)
+
+# Judul aplikasi
+judul = ttk.Label(
+    main_frame,
+    text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Arial", 18, "bold")
+)
+judul.pack(pady=(0, 20))
