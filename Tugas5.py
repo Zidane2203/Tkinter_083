@@ -78,3 +78,6 @@ label_hasil = ttk.Label(
     foreground="blue"
 )
 label_hasil.pack(pady=5)
+
+# Menjalankan aplikasi
+root.mainloop()
