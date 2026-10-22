@@ -21,3 +21,17 @@ judul = ttk.Label(
     font=("Arial", 18, "bold")
 )
 judul.pack(pady=(0, 20))
+
+# Daftar mata pelajaran
+mata_pelajaran = [
+    "Matematika",
+    "Bahasa Indonesia",
+    "Bahasa Inggris",
+    "Fisika",
+    "Kimia",
+    "Biologi",
+    "Ekonomi",
+    "Geografi",
+    "Sejarah",
+    "Informatika"
+]
