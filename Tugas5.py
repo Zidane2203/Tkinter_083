@@ -69,3 +69,12 @@ tombol_prediksi = ttk.Button(
     command=hasil_prediksi
 )
 tombol_prediksi.pack(pady=20)
+
+# Label hasil prediksi
+label_hasil = ttk.Label(
+    main_frame,
+    text="Hasil Prediksi: Belum tersedia",
+    font=("Arial", 12, "bold"),
+    foreground="blue"
+)
+label_hasil.pack(pady=5)
