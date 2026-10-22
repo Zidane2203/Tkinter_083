@@ -49,3 +49,10 @@ for i, pelajaran in enumerate(mata_pelajaran):
         width=20
     )
     label.grid(row=i, column=0, sticky="w", pady=5)
+
+    entry = ttk.Entry(form_frame, width=25)
+    entry.grid(row=i, column=1, sticky="ew", pady=5)
+
+    input_nilai.append(entry)
+
+form_frame.columnconfigure(1, weight=1)
