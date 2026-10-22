@@ -2,3 +2,7 @@
 
 import tkinter as tk
 from tkinter import ttk
+
+
+# Membuat window utama
+root = tk.Tk()
