@@ -35,3 +35,9 @@ mata_pelajaran = [
     "Sejarah",
     "Informatika"
 ]
+
+# Frame untuk input nilai
+form_frame = ttk.Frame(main_frame)
+form_frame.pack(fill="x", pady=5)
+
+input_nilai = []
